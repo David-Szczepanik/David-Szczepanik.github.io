@@ -1,38 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs">
 <head>
-  <script src="https://kit.fontawesome.com/6d3cb9a4a1.js" crossorigin="anonymous"></script>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!--  <link rel="stylesheet" href="style.css">-->
-  <link rel="stylesheet" href="/static/style.css">
-  <title>File Upload</title>
+  <link rel="stylesheet" href="styleFinal.css">
+  <title>Personal Website</title>
 </head>
 <body>
 
 <main>
-<header>
-  <nav class="topnav">
-  <a href="#">Home</a>
-  <a href="#">Database</a>
-  </nav>
-  <br>
-  <h1>Upload your file</h1>
-</header>
+  <header>
+    <nav class="topnav">
+      <a href="http://szczepanik.cz">Home</a>
+      <div class="dropdown">
+        <button class="dropbtn">Node.js</button>
+        <div class="dropdown-content">
+          <a href="http://szczepanik.cz/app">App</a>
+          <a href="http://szczepanik.cz/database">Database</a>
+          <a href="http://szczepanik.cz/chat">Chat</a>
+        </div>
+      </div>
+      <a href="https://github.com/David-Szczepanik">Github</a>
+      <a href="https://www.linkedin.com/in/david-szczepanik-3b4056157/">LinkedIn</a>
+    </nav>
+    <br>
+    <h1><a href="https://szczepanik.cz">Szczepanik.cz</a></h1>
+  </header>
 
-  <div class="wrapper" id="droparea">
-    <form action>
-      <input type="file" id="fileInput" hidden>
-      <i class="fa-solid fa-file-arrow-up fa-beat"></i>
-      <p>Drag or Browse File to Upload</p>
-    </form>
-  </div>
 
-  <div id="uploaded">
-
-  <div id="fileInfo"></div>
-  <div id="hashInfo"></div>
-</div>
 
 </main>
 
@@ -40,8 +33,4 @@
   <p>&copy; 2023</p>
 </footer>
 </body>
-<!--<script src="server.cjs"></script>-->
-<script src="/static/javascriptv2.js"></script>
-<!--<script src="javascript.js"></script>-->
-<!--<script src="javascriptpt.js"></script>-->
 </html>
