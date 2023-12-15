@@ -1,1 +1,1 @@
-# [Personal Website](https://david-szczepanik.github.io/)
+# [Link](https://david-szczepanik.github.io/)
